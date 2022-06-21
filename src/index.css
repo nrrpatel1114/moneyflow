@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FF676D;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.button {
+  background: #71ccca;
+  box-shadow: 20px 20px 60px #60adac, -20px -20px 60px #82ebe8;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,104 @@
+.ReactModal__Content {
+  background-color:  #fff;
+}
+.modal-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.added-image {
+  height: 360px;
+}
+
+.modal-inner label{
+background-color: crimson;
+padding: 2px 12px;
+border-radius: 4px 4px 4px 4px;
+color: #fff;
+font-family: 'Ubuntu', sans-serif;
+font-size: 20px;
+box-shadow: 2px 2px 2px #fff, -2px -2px 2px rgb(42, 42, 42, 5);
+}
+
+.take-home-button{
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  float: right;
+  margin: 0 5px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 3px 3px rgb(0, 0, 0);
+  transition: all 0.3s ease-out;
+  
+}
+
+
+.modal-inner .take-home-button:hover{
+  width: 150px;
+}
+
+
+.modal-inner .take-home-button i{
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-out;
+  color: #FF676D;
+  
+
+}
+
+.take-home-button i{
+  font-size: 35px;
+  line-height: 45px;
+  align-items: center;
+  text-align: center;
+  margin-left:-5px;
+  color:#FF676D;
+
+}
+
+.take-home-button span{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  color: #FF676D;
+
+}
+
+/* 
+.take-home-button {
+  border: 1px solid black;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.take-home-button i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+} */
+
+@media only screen and (max-width: 1024px) {
+  .added-image {
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .added-image {
+    height: 240px;
+  }
+}

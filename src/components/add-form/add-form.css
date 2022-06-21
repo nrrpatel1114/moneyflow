@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&family=Ubuntu:wght@400;500;700&display=swap');
+.add-form {
+  background: #9046CF;
+  /* background: #4ECDC4; */
+  box-shadow: 10px 10px 10px #111, -10px -10px 10px rgb(42, 42, 42, 5);
+  margin: 6px 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 72vh;
+  border-radius: 35px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.form-item {
+  margin: 12px 0px;
+  width: 70%;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+.form-item label {
+  background-color: crimson;
+  padding: 2px 12px;
+  border-radius: 0px 4px 4px 0px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+.form-item input {
+  font-size: 20px;
+  border: none;
+  width: 70%;
+  outline: none;
+  margin-left: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.category-container-parent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: #111;
+  transition: ease-in-out;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
+.category-dropdown i{
+  display: inline-block;
+  color: #fff;
+  transform: rotate(90deg);
+}
+
+.category-dropdown i:hover{
+  display: inline-block;
+  color: #111;
+  transform: rotate(-0deg);
+  transition: ease-in-out 1s;
+ 
+}
+
+
+
+.category {
+  position: relative;
+  width: 40%;
+}
+.category-item:hover {
+  color: crimson;
+}
+.category-dropdown {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0px;
+  background-color: crimson;
+  border-radius: 6px;
+  padding: 4px;
+  transition: ease-in-out 3s;
+  color: white;
+}
+
+
+.category-container {
+  display: flex;
+  position: absolute;
+  width: 30%;
+  flex-direction: column;
+  background: #ffffff;
+  transition: ease-in-out 3s;
+  
+}
+
+.category-item {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0px;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 4px;
+}
+.category-item img {
+  height: 32px;
+  margin-right: 15px;
+}
+.category-item i{
+  color: #fff;
+}
+
+/* ADD BUTTON BULLSHIT */
+ .form-add-button{
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  float: right;
+  margin: 0 5px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 3px 3px rgb(0, 0, 0);
+  transition: all 0.3s ease-out;
+  
+
+}
+
+
+.add-form .form-add-button:hover{
+  width: 290px;
+}
+
+
+.add-form .form-add-button i{
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-out;
+  color: #FF676D;
+  
+
+}
+
+.form-add-button i{
+  font-size: 35px;
+  line-height: 45px;
+  align-items: center;
+  text-align: center;
+  margin-left:-5px;
+  color:#FF676D;
+
+}
+
+.form-add-button span{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  color: #FF676D;
+
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+  .form-item {
+    width: 100%;
+  }
+  .form-item input {
+    width: 70%;
+  }
+  .amount-input {
+    width: 50% !important;
+  }
+  .category {
+    width: 90%;
+ 
+  }
+  .category-dropdown{
+    width: 50%;
+  }
+  .category-container{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+ 
+}
+
+@media only screen and (max-width: 680px) {
+  .category-dropdown{
+    width: 90%;
+  }
+  .category-container{
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  
+}
+
+
+@media only screen and (max-width: 1724px) {
+  .form-item {
+    width: 100%;
+  }
+  .form-item input {
+    width: 70%;
+  }
+  .amount-input {
+    width: 50% !important;
+  }
+  .category {
+    width: 90%;
+  }
+}
+
+

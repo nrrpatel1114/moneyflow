@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&family=Ubuntu:wght@400;500;700&display=swap');
+.card {
+  background: white;
+  padding: 12px;
+  margin: 2px 0px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #111;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.card-image {
+  height: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.card-right {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  font-family: 'Ubuntu', sans-serif;
+  justify-content: space-between;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 12px;
+}
+.card-title {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.card-time {
+  font-size: 12px;
+  color: crimson;
+  font-family: 'Ubuntu', sans-serif;
+}
+.card-amount {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* .delete-icon {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+} */
+/*this is the shit */
+
+.delete-icon{
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  float: right;
+  margin: 0 5px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 3px 3px rgb(0, 0, 0);
+  transition: all 0.3s ease-out;
+  margin-bottom: 10px;
+}
+
+
+
+
+.card .card-right .delete-icon i{
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-out;
+  color: #FF676D;
+  
+
+}
+
+.delete-icon i{
+  font-size: 15px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  margin-left:0px;
+  color:#FF676D;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .card-title {
+    font-size: 18px;
+  }
+  .card-amount {
+    font-size: 18px;
+  }
+  .card-image {
+    height: 32px;
+  }
+  .card-time {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .card-title {
+    font-size: 16px;
+  }
+  .card-amount {
+    font-size: 16px;
+  }
+}
