@@ -2,7 +2,7 @@ export const categories = [
   {
     id: 1,
     title: " 🏫 Education",
-    icon: require("https://yt3.ggpht.com/IVUdJrV26QQ62RtW04zYSccP51hj3_FJhGdly759TBzp3EMIcw5CBB-9-pkgj_tq3sUJxnVcAQ=s900-c-k-c0x00ffffff-no-rj"),
+    icon: require("../assets/images/healthcare.png"),
     color: "#FFBF00",
   },
   {
