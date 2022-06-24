@@ -4,7 +4,7 @@ import "./footer.css";
 
 
 const Footer = () => {
-  return <footer>Made by Nikunj Patel 👍 </footer>;
+  return <footer>Made by Nikunj Patel <span role="img" aria-label="thumbs-up">👍</span> </footer>;
 };
 
 export default Footer;

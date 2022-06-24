@@ -96,7 +96,7 @@ const AddForm = () => {
                 >
                   <i class="fa-duotone fa-circle"></i>
                   <label>{category.title}</label>
-                  <img src={category.icon.default} alt={null} />
+                  <img src={category.icon.default} alt="" />
                 </div>
               ))}
             </div>

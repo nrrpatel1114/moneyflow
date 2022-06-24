@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./top-fold.css";
 import { useDispatch } from "react-redux";
 import { searchExpense } from "../../redux/actions/expenses";
@@ -14,14 +14,7 @@ const TopFold = () => {
     <div className="topfold">
       {window.location.pathname === "/" ? (
         <div className="home-topfold">
-          {/* <div className="searchbar">
-            <i class="fi-rr-search"></i>
-            <input
-              placeholder="Search for expenses"
-              value={query}
-              onChange={(e) => handleQuery(e)}
-            />
-          </div> */}
+      
         <div className="box">
           <input type="checkbox" id="check"/>
           <div className="search-box">
