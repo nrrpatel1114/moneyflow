@@ -1,7 +1,7 @@
 {
   "main.css": "/moneyflow/static/css/main.204345b6.chunk.css",
-  "main.js": "/moneyflow/static/js/main.a6ea64e8.chunk.js",
-  "main.js.map": "/moneyflow/static/js/main.a6ea64e8.chunk.js.map",
+  "main.js": "/moneyflow/static/js/main.e79863e3.chunk.js",
+  "main.js.map": "/moneyflow/static/js/main.e79863e3.chunk.js.map",
   "static/js/1.6c00ac66.chunk.js": "/moneyflow/static/js/1.6c00ac66.chunk.js",
   "static/js/1.6c00ac66.chunk.js.map": "/moneyflow/static/js/1.6c00ac66.chunk.js.map",
   "static/css/2.53299cfa.chunk.css": "/moneyflow/static/css/2.53299cfa.chunk.css",
@@ -12,9 +12,9 @@
   "static/media/healthcare.png": "/moneyflow/static/media/healthcare.8e84ba90.png",
   "static/media/shopping.png": "/moneyflow/static/media/shopping.eb3f7b3f.png",
   "static/media/food.png": "/moneyflow/static/media/food.9c322a01.png",
-  "static/css/2.53299cfa.chunk.css.map": "/moneyflow/static/css/2.53299cfa.chunk.css.map",
   "static/css/main.204345b6.chunk.css.map": "/moneyflow/static/css/main.204345b6.chunk.css.map",
+  "static/css/2.53299cfa.chunk.css.map": "/moneyflow/static/css/2.53299cfa.chunk.css.map",
   "index.html": "/moneyflow/index.html",
-  "precache-manifest.b00f17f73ef39fc46771d70a7ba19796.js": "/moneyflow/precache-manifest.b00f17f73ef39fc46771d70a7ba19796.js",
+  "precache-manifest.90d0f53780bf60315089339a73bcc106.js": "/moneyflow/precache-manifest.90d0f53780bf60315089339a73bcc106.js",
   "service-worker.js": "/moneyflow/service-worker.js"
 }
