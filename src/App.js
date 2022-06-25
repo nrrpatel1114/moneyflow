@@ -9,12 +9,14 @@ import { HashRouter } from "react-router-dom";
 const App = () => {
   return (
     <HashRouter>
+      <Router>
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/" component={AddExpense} />
+        <Route path="/add-expense" component={AddExpense} />
       </Switch>
       <Footer />
+      </Router>
     </HashRouter>
   );
 };
