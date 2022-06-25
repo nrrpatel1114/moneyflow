@@ -1,20 +1,21 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import AddExpense from "./pages/add-expense";
 import Home from "./pages/home/index";
+import { HashRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/add-expense" component={AddExpense} />
+        <Route path="/" component={AddExpense} />
       </Switch>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 };
 
