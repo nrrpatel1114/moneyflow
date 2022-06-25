@@ -7,7 +7,7 @@ import Home from "./pages/home/index";
 
 const App = () => {
   return (
-    <Router basename="/moneyflow">
+    <Router basename="/moneyflow/add-expense" >
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
