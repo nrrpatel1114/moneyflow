@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nrrpatel1114.github.io/precache-manifest.132c9b012f44fab1bef35b367f51e8a5.js"
+  "/moneyflow/precache-manifest.5910188ed134c28b1914ee208f75b4e3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/nrrpatel1114.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/moneyflow/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
