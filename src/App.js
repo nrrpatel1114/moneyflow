@@ -8,7 +8,7 @@ import { HashRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <HashRouter basename="/moneyflow">
+    <HashRouter basename="/">
       <Router>
       <Header />
       <Switch>
