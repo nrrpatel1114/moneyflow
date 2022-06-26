@@ -1,12 +1,12 @@
 {
   "main.css": "/moneyflow/static/css/main.204345b6.chunk.css",
-  "main.js": "/moneyflow/static/js/main.c39f4f8f.chunk.js",
-  "main.js.map": "/moneyflow/static/js/main.c39f4f8f.chunk.js.map",
+  "main.js": "/moneyflow/static/js/main.4447ffbd.chunk.js",
+  "main.js.map": "/moneyflow/static/js/main.4447ffbd.chunk.js.map",
   "static/js/1.6c00ac66.chunk.js": "/moneyflow/static/js/1.6c00ac66.chunk.js",
   "static/js/1.6c00ac66.chunk.js.map": "/moneyflow/static/js/1.6c00ac66.chunk.js.map",
   "static/css/2.53299cfa.chunk.css": "/moneyflow/static/css/2.53299cfa.chunk.css",
-  "static/js/2.d21fc6a4.chunk.js": "/moneyflow/static/js/2.d21fc6a4.chunk.js",
-  "static/js/2.d21fc6a4.chunk.js.map": "/moneyflow/static/js/2.d21fc6a4.chunk.js.map",
+  "static/js/2.9adf4de0.chunk.js": "/moneyflow/static/js/2.9adf4de0.chunk.js",
+  "static/js/2.9adf4de0.chunk.js.map": "/moneyflow/static/js/2.9adf4de0.chunk.js.map",
   "runtime~main.js": "/moneyflow/static/js/runtime~main.d0120d22.js",
   "runtime~main.js.map": "/moneyflow/static/js/runtime~main.d0120d22.js.map",
   "static/media/healthcare.png": "/moneyflow/static/media/healthcare.8e84ba90.png",
@@ -15,6 +15,6 @@
   "static/css/main.204345b6.chunk.css.map": "/moneyflow/static/css/main.204345b6.chunk.css.map",
   "static/css/2.53299cfa.chunk.css.map": "/moneyflow/static/css/2.53299cfa.chunk.css.map",
   "index.html": "/moneyflow/index.html",
-  "precache-manifest.46c76aa9a0738b676e73b69f17a1e67d.js": "/moneyflow/precache-manifest.46c76aa9a0738b676e73b69f17a1e67d.js",
+  "precache-manifest.835a5ce3858a2525d57d455c0114d8a4.js": "/moneyflow/precache-manifest.835a5ce3858a2525d57d455c0114d8a4.js",
   "service-worker.js": "/moneyflow/service-worker.js"
 }
