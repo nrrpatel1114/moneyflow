@@ -9,7 +9,7 @@ import Home from "./pages/home/index";
 const App = () => {
   return (
     
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
