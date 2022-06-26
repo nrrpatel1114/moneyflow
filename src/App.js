@@ -8,16 +8,16 @@ import { HashRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <HashRouter basename="/">
-      <Router>
+    
+      <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
-        {/* <Route path="/" exact component={Home} /> */}
+        <Route path="/" exact component={Home} />
         <Route path="/add-expense" component={AddExpense} />
       </Switch>
       <Footer />
       </Router>
-    </HashRouter>
+
   );
 };
 
