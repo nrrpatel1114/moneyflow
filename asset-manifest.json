@@ -1,7 +1,7 @@
 {
   "main.css": "/moneyflow/static/css/main.204345b6.chunk.css",
-  "main.js": "/moneyflow/static/js/main.3d40ff85.chunk.js",
-  "main.js.map": "/moneyflow/static/js/main.3d40ff85.chunk.js.map",
+  "main.js": "/moneyflow/static/js/main.4fd509c8.chunk.js",
+  "main.js.map": "/moneyflow/static/js/main.4fd509c8.chunk.js.map",
   "static/js/1.6c00ac66.chunk.js": "/moneyflow/static/js/1.6c00ac66.chunk.js",
   "static/js/1.6c00ac66.chunk.js.map": "/moneyflow/static/js/1.6c00ac66.chunk.js.map",
   "static/css/2.53299cfa.chunk.css": "/moneyflow/static/css/2.53299cfa.chunk.css",
@@ -15,6 +15,6 @@
   "static/css/main.204345b6.chunk.css.map": "/moneyflow/static/css/main.204345b6.chunk.css.map",
   "static/css/2.53299cfa.chunk.css.map": "/moneyflow/static/css/2.53299cfa.chunk.css.map",
   "index.html": "/moneyflow/index.html",
-  "precache-manifest.4fcb6b7b22a8ded319d5a12d0252d7ad.js": "/moneyflow/precache-manifest.4fcb6b7b22a8ded319d5a12d0252d7ad.js",
+  "precache-manifest.dd88c5a98077ec9600fd3ff4edc265b5.js": "/moneyflow/precache-manifest.dd88c5a98077ec9600fd3ff4edc265b5.js",
   "service-worker.js": "/moneyflow/service-worker.js"
 }
