@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e79863e3a6ab03ced53e",
+    "revision": "f8d42982c1e152caa720",
     "url": "/moneyflow/static/css/main.204345b6.chunk.css"
   },
   {
-    "revision": "e79863e3a6ab03ced53e",
-    "url": "/moneyflow/static/js/main.e79863e3.chunk.js"
+    "revision": "f8d42982c1e152caa720",
+    "url": "/moneyflow/static/js/main.f8d42982.chunk.js"
   },
   {
     "revision": "6c00ac662e5a322cc349",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/moneyflow/static/media/food.9c322a01.png"
   },
   {
-    "revision": "d778e31165b1474f2979a650fcbc5784",
+    "revision": "ef39b777c6e8a73734f104a4a0f6b5e7",
     "url": "/moneyflow/index.html"
   }
 ];
