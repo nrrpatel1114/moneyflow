@@ -25,6 +25,21 @@ box-shadow: 2px 2px 2px #fff, -2px -2px 2px rgb(42, 42, 42, 5);
   height: 360px;
 }
 
+.empty-state .footer label{
+  width: 100%;
+  margin-top: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6px;
+  background-color: crimson;
+  padding: 2px 12px;
+  border-radius: 4px 4px 4px 4px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px #fff, -2px -2px 2px rgb(42, 42, 42, 5);
+}
 
 
 @media only screen and (max-width: 1024px) {
