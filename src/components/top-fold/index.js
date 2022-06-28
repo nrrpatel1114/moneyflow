@@ -19,7 +19,7 @@ const TopFold = () => {
           <input type="checkbox" id="check"/>
           <div className="search-box">
           <input 
-              placeholder="Search for expenses"
+              placeholder=" Search for expenses"
               value={query}
               onChange={(e) => handleQuery(e)}/>
           <label for="check" class="icon">

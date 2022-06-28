@@ -17,6 +17,7 @@
   align-items: center;
   font-size: 32px;
   font-weight: 500;
+
 }
 
 
@@ -24,7 +25,7 @@
 .content i{
   display: flex;
   align-items: center;
-  margin-left: 80px;
+  margin-left: 90px;
   margin-top: 10px; 
 }
 
@@ -45,6 +46,7 @@
   color: #111;
   transform: translate(-50%, -50%);
   font-size: 25px;
+  margin-left: 10px;
 }
 
 .content h2:nth-child(1)

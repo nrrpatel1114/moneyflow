@@ -43,7 +43,7 @@
   color: #111;
   transition: ease-in-out;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .category-dropdown i{
@@ -101,6 +101,7 @@
   cursor: pointer;
   align-items: center;
   margin-left: 4px;
+  
 }
 .category-item img {
   height: 32px;
@@ -203,7 +204,32 @@
     margin-bottom: 50px;
   }
   
+  
 }
+
+
+@media only screen and (max-width: 400px) {
+  .category-dropdown{
+    width: 110%;
+  }
+  .category-container{
+    width: 110%;
+    margin-bottom: 50px;
+  }
+  .category-container-parent{
+    flex: 1;
+  }
+  .add-form{
+    height: 60vh;
+  }
+  .category-item{
+    height: 17px;
+  }
+  
+  
+}
+
+
 
 
 @media only screen and (max-width: 1724px) {
