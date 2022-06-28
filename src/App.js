@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/" exact component={Home} />
         <Route path="/add-expense" component={AddExpense} />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
       </Router>
 
   );
