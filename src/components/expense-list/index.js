@@ -40,6 +40,11 @@ const ExpenseList = () => {
               />
         
           <label>Uh Oh! Your expense list is empty.</label>
+          <div className="footer">
+          <label>Made by Nikunj Patel</label>
+          </div>  
+
+          
         </div>
       )}
     </div>
