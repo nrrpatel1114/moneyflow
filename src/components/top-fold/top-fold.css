@@ -260,7 +260,9 @@
 @media only screen and (max-width: 390px) {
   .search-box input{
     position: absolute;
-    height: 90%;
+    height: 80%;
     width: 85%;
+
   }
+
 }

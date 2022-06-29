@@ -27,7 +27,7 @@ box-shadow: 2px 2px 2px #fff, -2px -2px 2px rgb(42, 42, 42, 5);
 
 .empty-state .footer label{
   width: 100%;
-  margin-top: 90%;
+  margin-top: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
