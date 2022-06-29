@@ -208,7 +208,7 @@
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 391px) {
   .category-dropdown{
     width: 110%;
   }
@@ -220,10 +220,10 @@
     flex: 1;
   }
   .add-form{
-    height: 63vh;
+    height: 65vh;
   }
   .category-item{
-    height: 16px;
+    height: 15px;
   }
   
   
