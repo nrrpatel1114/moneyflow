@@ -17,7 +17,7 @@ const Header = () => {
                 <div className='proj-button'>
                     <a href='https://nikunjpatel.netlify.app/#home' target="_blank" rel="noopener noreferrer" >
                     <div className='icon'><i className="fa-solid fa-globe"></i></div>
-                    <span>View more projects</span>
+                    <span>Other projects</span>
                     </a>
                 </div>
             </div>

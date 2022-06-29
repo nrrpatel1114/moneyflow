@@ -111,14 +111,14 @@
 
 
 .project .proj-button:hover{
-  width: 230px;
+  width: 190px;
 }
 
 
 .project .proj-button .icon{
   display: inline-block;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   text-align: center;
   border-radius: 50px;
   box-sizing: border-box;
@@ -132,7 +132,7 @@
   line-height: 45px;
   align-items: center;
   text-align: center;
-  margin-left: 0px;
+  margin-left: 5px;
   color: #FF676D;
   
 }
@@ -140,9 +140,9 @@
 .project .proj-button span{
   font-size: 19px;
   font-weight: 500;
-  line-height: 25px;
-  margin-left: 0px;
-  margin-bottom: 20px;
+  line-height: -15px;
+  margin-left: 5px;
+  margin-bottom: 40px;
   color: #FF676D;
 }
 
@@ -193,5 +193,14 @@
   .header-button{
       font-size: 18px;
   }
-
+  .project .proj-button:hover{
+    width: 185px;
+  }
+  .project .proj-button span{
+    
+    line-height: -25px;
+    margin-left: 5px;
+    margin-bottom: 35px;
+    color: #FF676D;
+  }
 }
