@@ -44,6 +44,7 @@
   transition: ease-in-out;
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
+  
 }
 
 .category-dropdown i{
@@ -220,11 +221,11 @@
     flex: 1;
   }
   .add-form{
-    height: 65vh;
+    height: 63vh;
   }
   .category-item{
-    height: 11px;
-    font-size: 17px;
+    height: 10px;
+    font-size: 16px;
   }
   
   
