@@ -35,10 +35,10 @@ export const categories = [
     icon: require("../assets/images/entertainment.png"),
     color: "#4EFFEF",
   },
-  // {
-  //   id: 7,
-  //   title: "✅ Other",
-  //   icon: require("../assets/images/entertainment.png"),
-  //   color: "#D7FD00",
-  // },
+  {
+    id: 7,
+    title: "✅ Other",
+    icon: require("../assets/images/entertainment.png"),
+    color: "#D7FD00",
+  },
 ];
