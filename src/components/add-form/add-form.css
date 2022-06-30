@@ -72,7 +72,7 @@
 }
 .category-dropdown {
   display: flex;
-  width: 40%;
+  width: 250px;
   justify-content: space-between;
   align-items: center;
   margin: 12px 0px;
@@ -83,11 +83,11 @@
   color: white;
 }
 
-
+/* background of the .category thing */
 .category-container {
   display: flex;
   position: absolute;
-  width: 40%;
+  width: 250px;
   flex-direction: column;
   background: #ffffff;
   transition: ease-in-out 3s;
@@ -95,7 +95,7 @@
 }
 
 .category-item {
-  width: 97%;
+  width: 245px;
   display: flex;
   justify-content: space-between;
   padding: 12px 0px;
