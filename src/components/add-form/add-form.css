@@ -257,26 +257,4 @@
 }
 
 
-@media only screen and (max-width: 3724px) {
-  .form-item {
-    width: 100%;
-  }
-  .form-item input {
-    width: 70%;
-  }
-  .amount-input {
-    width: 50% !important;
-  }
-  .category {
-    width: 90%;
-  }
-  .category-dropdown{
-    width: 40%;
-  }
-  .category-container{
-    width:40%;
-    margin-bottom: 50px;
-  }
-
-}
 
