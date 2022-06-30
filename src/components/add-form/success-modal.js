@@ -6,7 +6,7 @@ import anime from "./anime.json";
 import "./success-modal.css";
 const SuccessModal = ({ modalOpen, setModalOpen }) => {
   const defaultOptions = {
-    loop: true,
+    loop: false,
     autoplay: true, 
     animationData: anime,
     rendererSettings: {
@@ -33,6 +33,7 @@ const SuccessModal = ({ modalOpen, setModalOpen }) => {
         <Lottie options={defaultOptions}
               height={400}
               width={400}
+       
               />
         
         <Link to="/">
