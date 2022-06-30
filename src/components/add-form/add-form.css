@@ -72,7 +72,7 @@
 }
 .category-dropdown {
   display: flex;
-  width: 30%;
+  width: 40%;
   justify-content: space-between;
   align-items: center;
   margin: 12px 0px;
@@ -87,7 +87,7 @@
 .category-container {
   display: flex;
   position: absolute;
-  width: 30%;
+  width: 40%;
   flex-direction: column;
   background: #ffffff;
   transition: ease-in-out 3s;
@@ -193,7 +193,7 @@
     width: 50%;
     margin-bottom: 50px;
   }
- 
+
 }
 
 @media only screen and (max-width: 680px) {
@@ -204,8 +204,8 @@
     width: 90%;
     margin-bottom: 50px;
   }
-  
-  
+
+
 }
 
 

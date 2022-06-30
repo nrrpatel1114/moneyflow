@@ -22,6 +22,7 @@ export const categories = [
     title: "🍔 Food",
     icon: require("../assets/images/food.png"),
     color: "#32936F",
+ 
   },
   {
     id: 5,
